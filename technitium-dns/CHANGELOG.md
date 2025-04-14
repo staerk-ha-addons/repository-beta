@@ -4,4 +4,4 @@
 ## New Contributors
 * @jeppestaerk made their first contribution in https://github.com/staerk-ha-addons/addon-technitium-dns/pull/1
 
-**Full Changelog**: https://github.com/staerk-ha-addons/addon-technitium-dns/compare/v0.1.0...v0.1.1-beta
+**Full Changelog**: https://github.com/staerk-ha-addons/addon-technitium-dns/compare/v0.1.0...v0.2.0-beta
