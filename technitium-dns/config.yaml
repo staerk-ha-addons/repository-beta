@@ -1,5 +1,5 @@
 name: Technitium DNS Server
-version: 0.1.0
+version: 0.1.1-beta
 slug: technitium-dns
 description: Self-hosted DNS server with Home Assistant add-on integration.
 url: https://github.com/staerk-ha-addons/addon-technitium-dns
@@ -9,28 +9,26 @@ panel_icon: mdi:dns
 startup: services
 init: false
 arch:
-  - amd64
-  - aarch64
+- amd64
+- aarch64
 map:
-  - type: ssl
-  - type: addon_config
-    read_only: false
+- type: ssl
+- type: addon_config
+  read_only: false
 options:
-  generate_ssl_pfx: false
   ssl_pfx_password: TechnitiumDNS!SSL
   certfile: /ssl/fullchain.pem
   keyfile: /ssl/privkey.key
   pkcs12file: /config/ssl/technitium.pfx
 schema:
-  generate_ssl_pfx: bool
   ssl_pfx_password: password
   certfile: str
   keyfile: str
   pkcs12file: str
 ports:
   53/udp: 53
-  853/udp: null
-  853/tcp: null
+  853/udp: 853
+  853/tcp: 853
   443/udp: null
   443/tcp: null
 ports_description:
