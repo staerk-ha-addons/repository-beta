@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update DNS_SERVER_VERSION to v15.6.2 @[renovate[bot]](https://github.com/apps/renovate) (#81)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.5.2 @[renovate[bot]](https://github.com/apps/renovate) (#83)
